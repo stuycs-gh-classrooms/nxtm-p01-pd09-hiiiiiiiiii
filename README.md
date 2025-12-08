@@ -27,12 +27,18 @@ The first phase will be to work on this document.
 ### Necessary Features
 What are the core features that your program should have? These should be things that __must__ be implemented in order to make the program useable/playable, not extra features that could be added to make the program more interesting/fun.
 
-YOUR ANSWERS HERE
+A way to win or lose
+A moving ball that bounces when it hits something
+A paddle you can control
+Bricks that can be broken
 
 ### Extra Features
 What are some features that are not essential to the program, but you would like to see (provided you have time after completing the necessary features. Theses can be customizations that are not part of the core requirements.
 
-YOUR ANSWERS HERE
+Multiple lives
+Abilitiy to pause
+Ability to reset
+Continuation of the game
 
 ### Array Usage
 How will you be using arrays in this project?
