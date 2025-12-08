@@ -1,7 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/QTULg0OX)
 # NeXtCS Project 01
 ### thinker0: Ruby Vaca
-### thinker1: FRIST LSAT
 ---
 
 ### Overview
@@ -60,7 +59,7 @@ Keyboard Commands:
 
 Mouse Control:
 - Mouse movement: moves paddle
-- Mouse pressed:
+- Mouse pressed: nothing
 
 
 ### Classes
@@ -72,6 +71,9 @@ Ball
 - METHODS
   - breakbrick - when the ball touches a brick
   - move
+  - display
+  - bounce- when it touches the paddle or walls or bricks
+  - lose - when the ball gets past the paddle
 
 Brick
 - Instance variables:
