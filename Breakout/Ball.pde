@@ -21,7 +21,6 @@ class Ball
     // a method for this object to "show itself"
     void display()
     {
-      fill(255);
        circle(x, y, size);
     }
 
