@@ -1,4 +1,4 @@
-Changes to consider
+##Changes to consider
 
   -make the space a pause and unpause button
   -use a 1d array to keep track of lives
