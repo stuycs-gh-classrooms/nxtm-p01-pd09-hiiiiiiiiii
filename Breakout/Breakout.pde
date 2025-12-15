@@ -12,6 +12,7 @@ void setup()
   b0= new Ball();
   b0.xspeed = 2;
   b0.yspeed = 2;
+  b0.lost = 3;
   b0.size = 20;
   br = new Brick(rows, cols);
   br.bricksxy();
@@ -43,9 +44,13 @@ void keyPressed()
     br.bricksxy();
     br.assignvalues(); }
     if (key == 'n') { //speeds up
-      b0.xspeed = b0.xspeed + 1;
-      b0.yspeed = b0.yspeed + 1;
-  }
+      b0.xspeed = b0.xspeed * 2;
+      b0.yspeed = b0.yspeed * 2;
+      }
+        if (key == 'm') { //Slows down
+      b0.xspeed = b0.xspeed / 2;
+      b0.yspeed = b0.yspeed / 2;
+      }
 }
 
 void movepaddle() {
@@ -53,7 +58,7 @@ void movepaddle() {
 }
 
 void youlost() {
-  if (b0.lost) {
+  if (b0.lost <= 0) {
     background(0);
     textSize(50);
     textAlign(CENTER, CENTER);
