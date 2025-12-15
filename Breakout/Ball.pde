@@ -1,10 +1,14 @@
+//Ruby Vaca
+//p01 - breakout
+//hours spent - 10
+
 class Ball
 {
   int x, y;
   int xspeed, yspeed;
   int size;
   boolean colision;
-  boolean lost = false;
+  int lost = 3;
 
   Ball()
   {
@@ -49,9 +53,10 @@ class Ball
 
         yspeed *= -1;
       }
-      if (y - size/2 > height-50) { //if it gets past paddle
-        lost = true;
+      else if (y - size/2 > height && lost > 0) { //if it gets past paddle
+        lost = lost - 1;
       }
     }
   }
 }
+
